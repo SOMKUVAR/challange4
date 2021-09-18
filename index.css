@@ -183,4 +183,10 @@ input::after {
     left: 230px;
     /* margin-top:10px; */
   }
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
