@@ -117,7 +117,7 @@ input::after {
 #error{
   margin: 10px;
   color: hsl(0, 93%, 68%);
-  margin-bottom: 30px;
+  margin-top: 10px;
 }
 @media (max-width: 1080px) {
   body {
@@ -183,10 +183,6 @@ input::after {
     left: 230px;
     /* margin-top:10px; */
   }
-  .center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  ex-direction: column;
   }
 }
