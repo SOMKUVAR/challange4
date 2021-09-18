@@ -17,7 +17,7 @@ header {
 
 }
 #right {
-  /* display: block; */
+  display: block;
   top: 0;
   right: 0;
   /* width: 40%; */
@@ -105,9 +105,9 @@ input::after {
 #e{
   visibility: hidden;
   position: absolute;
-  /* margin: 20px; */
-  margin-top: 10px;
-  left: 345px;
+  margin: 20px;
+  margin-top: 15px;
+  left: 330px;
   z-index: 1;
 }
 .end{
@@ -120,7 +120,7 @@ input::after {
 #error{
   /* margin: 5px; */
   color: hsl(0, 93%, 68%);
-  /* margin-top: 10px; */
+  margin-top: 10px;
 }
 @media (max-width: 1080px) {
   body {
@@ -144,7 +144,7 @@ input::after {
   #mobile {
     /* box-sizing: border-box; */
     display: block;
-    max-width: 500px;
+    /* max-width: 500px; */
     width: 100%;
   }
   .we{
@@ -175,10 +175,9 @@ input::after {
   .input{
     box-sizing: border-box;
     width: 100%;
-    display: flex;
-    align-items: center;
     height: 50px;
     margin: 10%;
+    margin-bottom: 0;
   }
   #icon {
     box-sizing: border-box;
@@ -188,7 +187,10 @@ input::after {
     
   }
   #e{
-    left: 220px;
-    margin-top:10px;
+    left: 200px;
+    margin-top:15px;
+  }
+  #error{
+    margin-left: -20px;
   }
 }
