@@ -10,9 +10,11 @@ body {
   height: 100vh;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
 }
 header {
   padding: 50px;
+
 }
 #right {
   /* display: block; */
@@ -26,6 +28,7 @@ header {
   display: none;
 }
 h1 {
+  /* font-size: 3em; */
   font-size: 60px;
   font-weight: 600;
   letter-spacing: 10px;
@@ -56,7 +59,7 @@ input {
   border-radius: 50px;
   border: 1px solid hsl(0, 36%, 70%);
   outline: none;
-  font-size: 17px;
+  /* font-size: 17px; */
   text-decoration: none;
   color: hsl(0, 6%, 24%);
 }
@@ -103,7 +106,7 @@ input::after {
   visibility: hidden;
   position: absolute;
   /* margin: 20px; */
-  margin-top: 15px;
+  margin-top: 10px;
   left: 345px;
   z-index: 1;
 }
@@ -115,13 +118,14 @@ input::after {
   background: linear-gradient(135deg, rgba(233,130,144,1) 0%, rgba(255,255,255,1) 99%, rgba(255,255,255,1) 100%);cursor: pointer;
 }
 #error{
-  margin: 10px;
+  /* margin: 5px; */
   color: hsl(0, 93%, 68%);
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 @media (max-width: 1080px) {
   body {
     width: 100vw;
+    max-width: 600px;
     box-sizing: border-box;
   }
   .end{
@@ -138,15 +142,16 @@ input::after {
     display: none;
   }
   #mobile {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     display: block;
+    max-width: 500px;
     width: 100%;
   }
   .we{
     margin-top: 30px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 2em;
     text-align: center;
     line-height: 35px;
   }
@@ -159,7 +164,8 @@ input::after {
     box-sizing: border-box;
   }
   input {
-    width: 320px;
+    box-sizing: border-box;
+    width: 300px;
     height: 50px;
     padding: 20px;
     border-radius: 40px;
@@ -167,22 +173,22 @@ input::after {
     margin-top: 2px;
   }
   .input{
-    width: 320;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
     height: 50px;
-    margin-left: 10px;
-    /* margin: 10%; */
+    margin: 10%;
   }
   #icon {
     box-sizing: border-box;
     position: absolute;
     padding: 16px 26px;
-    left: 260px;
+    left: 250px;
     
   }
   #e{
-    left: 230px;
-    /* margin-top:10px; */
-  }
-  ex-direction: column;
+    left: 220px;
+    margin-top:10px;
   }
 }
