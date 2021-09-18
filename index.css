@@ -119,9 +119,6 @@ input::after {
   color: hsl(0, 93%, 68%);
   margin-bottom: 30px;
 }
-footer{
-   margin-left: 50px;
-}
 @media (max-width: 1080px) {
   body {
     width: 100vw;
